@@ -12,20 +12,6 @@
 
 ## Requirements
 
-# Git Recon
-
-`git-recon.py` is a Python script designed to analyze GitHub repositories for bug bounty purposes. The script clones a specified GitHub repository, displays its README content, detects technologies used within the repository, and checks for vulnerabilities using Trivy.
-
-## Features
-
-- Clones a specified GitHub repository.
-- Displays the README content from the repository.
-- Gathers information on the file structure and technologies used.
-- Detects vulnerabilities in the repository using Trivy.
-- Generates a comprehensive report including the file structure, technologies used, and detected vulnerabilities.
-
-## Requirements
-
 - Python 3.6+
 - Git
 - Trivy
